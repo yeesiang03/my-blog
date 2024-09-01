@@ -1,3 +1,16 @@
 import comp from "C:/Users/USER/blog/docs/.vuepress/.temp/pages/blog/article1.html.vue"
-const data = JSON.parse("{\"path\":\"/blog/article1.html\",\"title\":\"article1\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"article1\",\"author\":\"MSiang03\",\"date\":\"2024-8-30\"},\"headers\":[{\"level\":2,\"title\":\"Hey hey hey\",\"slug\":\"hey-hey-hey\",\"link\":\"#hey-hey-hey\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"blog/article1.md\"}")
+const data = JSON.parse("{\"path\":\"/blog/article1.html\",\"title\":\"Welcome to BIT! 欢迎来到北理！！\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1725031546000,\"contributors\":[{\"name\":\"yeesiang\",\"email\":\"yeesiangku@gmail.com\",\"commits\":1}]},\"filePathRelative\":\"blog/article1.md\"}")
 export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

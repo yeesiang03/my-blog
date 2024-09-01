@@ -1,9 +1,1 @@
----
-title: article1
-author: MSiang03
-date: '2024-8-30'
----
-# First article
-This is the first article
-
-## Hey hey hey
+# Welcome to BIT! 欢迎来到北理！！

@@ -25,10 +25,26 @@ export default defineUserConfig({
       "",
       {
         text: "Blog",
-        prefix: "/blog",
+        prefix: "/blog/",
         children: [
           "article1",
           "article2"
+        ]
+      },
+      {
+        text: "微积分",
+        prefix: "/study/Calculas/",
+        children: [
+          "1_集合与函数",
+          "2_极限",
+          "3_导数",
+          "4_微分",
+          "5_不定积分",
+          "6_定积分",
+          "7_多元函数微分",
+          "8_二重积分",
+          "9_微分方程",
+          "10_无穷级数"
         ]
       }
     ]
