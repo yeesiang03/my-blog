@@ -1,5 +1,5 @@
 import comp from "C:/Users/USER/blog/docs/.vuepress/.temp/pages/study/Calculas/8_二重积分.html.vue"
-const data = JSON.parse("{\"path\":\"/study/Calculas/8_%E4%BA%8C%E9%87%8D%E7%A7%AF%E5%88%86.html\",\"title\":\"8 二重积分\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":null,\"contributors\":[]},\"filePathRelative\":\"study/Calculas/8_二重积分.md\"}")
+const data = JSON.parse("{\"path\":\"/study/Calculas/8_%E4%BA%8C%E9%87%8D%E7%A7%AF%E5%88%86.html\",\"title\":\"8 二重积分\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1725167980000,\"contributors\":[{\"name\":\"yeesiang\",\"email\":\"yeesiangku@gmail.com\",\"commits\":1}]},\"filePathRelative\":\"study/Calculas/8_二重积分.md\"}")
 export { comp, data }
 
 if (import.meta.webpackHot) {
